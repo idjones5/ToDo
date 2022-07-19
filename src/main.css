@@ -1,0 +1,53 @@
+
+#input-task {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+    margin-right: 10px;
+    width: 500px;
+}
+
+button {
+    background-color: rgba(217, 177, 219, 0.8);
+    border: none;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#add-task-button {
+    padding: 8px;
+}
+
+#to-do-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.delete-btn {
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+#task-list {
+    width: 500px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.task {
+    width: 420px;
+}
